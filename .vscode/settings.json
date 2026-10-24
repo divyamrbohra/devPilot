@@ -10,5 +10,6 @@
       "**/node_modules": true,
       "**/target": true,
       "**/.next": true
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
   }
