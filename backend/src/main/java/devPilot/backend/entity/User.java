@@ -27,8 +27,8 @@ public class User {
     @Column(name = "display_name", nullable = false, length = 255)
     private String displayName;
 
-    @Column(name = "avtar_url", length = 500)
-    private String avtarUrl;
+    @Column(name = "avatar_url", length = 500)
+    private String avatarUrl;
 
     @Column(name="access_token", nullable = false, columnDefinition = "TEXT")
     private String accessToken;
