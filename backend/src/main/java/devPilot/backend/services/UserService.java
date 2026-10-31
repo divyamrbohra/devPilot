@@ -31,7 +31,7 @@ public class UserService {
         user.setGithubId(githubId);
         user.setGithubUsername(login);
         user.setDisplayName(name);
-        user.setAvtarUrl(avatarUrl);
+        user.setAvatarUrl(avatarUrl);
         user.setAccessToken(encryptedToken);
         user.setTokenScope(scopes);
         return userRepository.save(user);
